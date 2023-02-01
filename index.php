@@ -28,13 +28,16 @@ if (!empty($_POST["email"]) && !empty($_POST["pass"])) {
 </head>
 
 <body class="h-100 text-bg-dark">
+    <div style="padding: 30px;">
+        <img src="logo.png" alt="" height="120" width="150">
+    </div>
     <div class="init-ui">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-3 col-xl-3 col-sm-12"></div>
                 <div class="col-md-6 col-xl-6 col-sm-12">
                     <div class="border p-4 rounded mx-auto login-box">
-                        <h4 class="mb-3">Brand Name or logo</h4>
+                        <h4 class="mb-3">Welcome Peter please login...</h4>
                         <?php if ($msg) { ?>
                             <div class="alert alert-danger" role="alert">
                                 Email and Password are wrong...
