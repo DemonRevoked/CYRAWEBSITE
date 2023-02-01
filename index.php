@@ -6,7 +6,7 @@ if (!empty($_SESSION["auth_check"]) && $_SESSION["auth_check"] === "LOGIN_DONE")
 }
 $msg = false;
 if (!empty($_POST["email"]) && !empty($_POST["pass"])) {
-    if ($_POST["email"] === "test@test.com" && $_POST["pass"] === "ewb29@4$#!@312") {
+    if ($_POST["email"] === "peter@whizrange.com" && $_POST["pass"] === "stewie") {
         $_SESSION["auth_check"] = "LOGIN_DONE";
         header("Location: ./panel.php");
     } else {
